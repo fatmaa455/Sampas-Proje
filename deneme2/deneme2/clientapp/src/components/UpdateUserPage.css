@@ -1,0 +1,50 @@
+﻿/* src/components/UpdateUserPage.css */
+.update-user-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Sol ve sağa yayılmasını sağlar */
+    align-items: center;
+    padding: 10px 20px; /* Üst ve alt padding */
+    border-bottom: 1px solid #ddd;
+    background-color: #f4f4f4;
+    position: relative; /* Gövde içindeki diğer öğelerle uyumlu çalışması için */
+    width: 100%; /* Tam genişlik */
+}
+
+.update-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }

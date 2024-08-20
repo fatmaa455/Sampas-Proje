@@ -1,0 +1,77 @@
+﻿/* src/components/HomePage.css */
+.homepage {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+    .sidebar h2 {
+        margin-top: 0;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+            .sidebar ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 16px;
+            }
+
+                .sidebar ul li a:hover {
+                    text-decoration: underline;
+                }
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.kullanicilar {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #3d3b3d;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #282c34;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .logout-button:hover {
+        background-color: #20232a;
+    }
+
+main {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
