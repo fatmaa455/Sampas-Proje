@@ -1,2 +1,1 @@
-# Sampa-Proje
-Sampaş
+# Sampas-Proje
